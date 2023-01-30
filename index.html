@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Dojonary</title>
+    </head>
+    <body>
+        <nav class="nav">
+            <h1>Dojonary</h1>
+            <input
+                type="text"
+                name="search"
+                class="search"
+                placeholder="Search"
+            />
+            <button class="login" onclick="logIn(this)">Login</button>
+        </nav>
+        <main class="container">
+            <section>
+                <article class="definition">
+                    <div class="word">
+                        <h2>ninja</h2>
+                        <h3><span class="italic">noun</span></h3>
+                        <span>Plural: <span class="italic">ninjas</span></span>
+                        <button class="likes" onclick="like()">13 Likes</button>
+                    </div>
+                    <p>
+                        A practitioner skiller in the <br />
+                        <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>
+                    </p>
+                </article>
+                <article class="definition">
+                    <div class="word">
+                        <h2>ninja</h2>
+                        <h3><span class="italic">noun</span></h3>
+                        <span>Plural: <span class="italic">ninjas</span></span>
+                        <button class="likes" onclick="like()">37 Likes</button>
+                    </div>
+                    <p>
+                        A <a href="#">programmer</a> who breaks <br />
+                        down problems with <a href="#">zen</a>-like <br />focus
+                    </p>
+                </article>
+            </section>
+            <aside>
+                <p>Dojonary is<br />defined by <span>YOU</span></p>
+                <button class="add" onclick="hide(this)">Add Definition</button>
+            </aside>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
